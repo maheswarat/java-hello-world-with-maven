@@ -21,6 +21,9 @@
             <argument>niwasawa</argument>
             <argument>maigolab</argument>
           </arguments>
+          <serverId>maven-snapshots</serverId>
+          <nexusUrl>http://localhost:8081/repository/maven-snapshots/</nexusUrl>
+          <skipStaging>true</skipStaging>
         </configuration>
       </plugin>
     </plugins>
